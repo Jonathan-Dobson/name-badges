@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(185, 226, 231);
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 400px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 2fr;
+    background: radial-gradient(salmon, rgb(209, 41, 22));
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 1px 1px 13px 0px black;
+}
+
+.grid-full-width{
+    grid-column: 1/-1;
+}
+
+input, textarea, button{
+    padding: 6px 8px;
+    border: 2px solid rgb(219, 82, 66);
+    border-radius: 5px;
+}
+
